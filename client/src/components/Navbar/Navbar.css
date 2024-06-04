@@ -1,0 +1,19 @@
+.navElem{
+    position: relative;
+    padding: 0 2px;
+}
+
+.navElem:after{
+    content: "";
+    background-color: whitesmoke;
+    position: absolute;
+    height : 2px;
+    width: 0;
+    left: 0;
+    bottom: -1px;
+    transition: 0.2s;
+}
+
+.navElem:hover:after{
+    width: 100%;
+}
